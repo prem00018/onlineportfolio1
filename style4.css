@@ -1,0 +1,231 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.nav {
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+header {
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+header a {
+  color: #0366d6;
+  text-decoration: none;
+  border: 1px solid #0366d6;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+header a:hover {
+  background-color: #0366d6;
+  color: #fff;
+}
+
+
+#about {
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+#about h2 {
+  border-bottom: 1px solid #d1d5da;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#about .profile-pic {
+  float: left;
+  margin-right: 20px;
+  border: 1px solid #d1d5da;
+  padding: 4px;
+  border-radius: 4px;
+  max-width: 200px;
+}
+
+#about p {
+  clear: both;
+  margin-top: 15px;
+}
+
+
+#projects {
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+#projects h2 {
+  border-bottom: 1px solid #d1d5da;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#projects ul li {
+  margin-bottom: 20px;
+}
+
+#projects ul li h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#projects ul li img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #d1d5da;
+  padding: 4px;
+  border-radius: 4px;
+  max-width: 70px;
+}
+
+#projects ul li p {
+  clear: both;
+  margin-top: 10px;
+}
+
+#projects ul li a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+#projects ul li a:hover {
+  text-decoration: underline;
+}
+
+
+#contact {
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+#contact h2 {
+  border-bottom: 1px solid #d1d5da;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input, #contact textarea {
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+#contact button {
+  background-color: #0366d6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #d1d5da;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.nav .logout-btn {
+  background-color: #dbd5e4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav .logout-btn:hover {
+  background-color: #edebef;
+  text-decoration: none;
+}
+
+
+header .logout-btn {
+  background-color: #cd9cec;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header .logout-btn:hover {
+  background-color: #673eba;
+  text-decoration: none;
+}
