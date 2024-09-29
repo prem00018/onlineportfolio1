@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
     } else {
         echo '<script>
                 alert("Login failed. Invalid username or password!");
-                window.location.href = "index.php";
+                window.location.href = "index1.html";
               </script>';
     }
 }
